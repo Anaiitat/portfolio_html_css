@@ -1,0 +1,260 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+}
+
+h1,
+h2,
+a,
+p,
+label,
+textarea,
+button,
+input,
+small {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.espace {
+  margin-top: 104px;
+}
+
+#presentation,
+#creation,
+#contact {
+  scroll-margin-top: 114px;
+}
+
+/*Header*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid rgba(26, 178, 238, 0.158) 2px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: aliceblue;
+}
+img {
+  height: 70px;
+}
+
+div {
+  margin: 20px 10px 10px 20px;
+  width: auto;
+}
+
+nav > a {
+  margin: 20px;
+  color: rgba(112, 199, 255, 255);
+}
+
+nav > a > h1:hover {
+  transition: transform 0.2s;
+  transform: scale(1.2);
+}
+
+nav {
+  display: flex;
+
+  align-items: center;
+}
+
+#presentation,
+#creation,
+#contact {
+  scroll-margin-top: 114px;
+}
+
+/*Corp*/
+
+main {
+  background-image: url("./test_vue/test_2/src/assets/particle-lines-futuristic-gradient-background.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+section {
+  border: 2px solid rgba(112, 199, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+
+  margin: 20px;
+}
+
+h2 {
+  color: rgba(112, 199, 255, 255);
+  border: 1px, solid, rgba(112, 199, 255, 255);
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width: 250px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 8px;
+}
+
+article {
+  margin: 20px;
+}
+
+/*Présentation*/
+
+.presentation_modif {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.445);
+  border-radius: 20px;
+}
+
+.presentation_modif > p {
+  text-align: center;
+  padding: 40px;
+  color: rgb(161, 88, 161);
+}
+
+/*Création*/
+
+.creation_modif {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
+}
+
+.creation_modif > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.creation_modif > div > img {
+  height: 150px;
+  width: 150px;
+  background-color: aliceblue;
+}
+
+.creation_modif > div:hover {
+  transition: transform 0.2s;
+  transform: scale(1.2);
+}
+
+/*Contact*/
+li {
+  list-style-type: none;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  padding: 0%;
+  width: 100%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  border: 1px, solid, rgba(112, 199, 255, 255);
+  border-radius: 8px;
+  padding: 0 25px 0 25px;
+  background: white;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: rgba(112, 199, 255, 255);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  background: hsla(286, 64%, 78%, 0.26);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  height: 35px;
+  width: auto;
+  color: rgb(161, 88, 161);
+}
+
+input:focus,
+textarea:focus {
+  outline-color: rgba(112, 199, 255, 255);
+}
+
+textarea {
+  height: 200px;
+}
+
+button {
+  color: rgba(112, 199, 255, 255);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  margin: 20px;
+  padding: 15px;
+  width: 200px;
+}
+
+button:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  border-top: solid rgba(26, 178, 238, 0.158) 2px;
+  width: 100%;
+}
+
+footer > div > a > img {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+footer > div > a > img:hover {
+  transition: transform 0.2s;
+  transform: scale(1.2);
+}
+
+.logo {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date_modif {
+  text-align: end;
+  display: flex;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  color: rgb(161, 88, 161);
+}
+footer > div {
+  width: 300px;
+}
